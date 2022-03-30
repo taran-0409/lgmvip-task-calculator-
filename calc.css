@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #FCFFA6, #98D6EA);
+}
+H1{
+    font-style: italic;
+    font-size: 2.4REM;
+    color: #C84361;
+}
+button{
+    width:50px;
+    height: 50px;
+    color: #C84361;
+    font-size: larger;
+    background-color: #A9ECA2;
+    border: 2px solid #C84361 ;
+    border-radius: 40%;
+    box-shadow: 4px 4px 2px  rgb(189, 186, 186);
+    margin: 4px;
+    cursor: pointer ;
+}
+#screen {
+    width:230px;
+    height: 50px;
+    color: #C84361;
+    font-size: larger;
+    background-color: #A9ECA2;
+    border: 2px solid #C84361 ;
+    border-radius: 5%;
+    box-shadow: 4px 4px 2px rgb(189, 186, 186);
+    margin: 4px;
+}
+::placeholder {
+    color: rgb(255, 121, 121);
+    
+  }
+.BTN2{
+    width:113px;
+    height: 50px;
+    color: #C84361;
+    font-size: larger;
+    background-color: #A9ECA2;
+    border: 2px solid #C84361 ;
+    border-radius: 25%;
+    box-shadow: 4px 4px 2px  rgb(189, 186, 186);
+    margin: 4px;
+}

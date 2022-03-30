@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="top"> 
+            <h1>
+                CALCULATOR
+            </h1>
+        </div>
+        <DIV >
+           <INPUT Type="text" name="screen" id="screen" placeholder="Enter values here..">
+        </DIV>
+        <DIV class="SECTION">
+            <BUTTON class="BTN" id="ac" value="C" onmouseover="small(this)" onmouseout="normal(this)">AC</BUTTON>
+            <BUTTON class="BTN   " value="(" onmouseover="small(this)" onmouseout="normal(this)">(</BUTTON>
+            <BUTTON class="BTN   " value=")" onmouseover="small(this)" onmouseout="normal(this)">)</BUTTON>
+            <BUTTON class="BTN " value="+" onmouseover="small(this)" onmouseout="normal(this)">+</BUTTON>
+        </DIV>
+        <DIV class="SECTION">
+            <BUTTON class="BTN   " value="1" onmouseover="small(this)" onmouseout="normal(this)">1</BUTTON>
+            <BUTTON class="BTN   " value="2" onmouseover="small(this)" onmouseout="normal(this)">2</BUTTON>
+            <BUTTON class="BTN   " value="3" onmouseover="small(this)" onmouseout="normal(this)">3</BUTTON>
+            <BUTTON class="BTN" value="-" onmouseover="small(this)" onmouseout="normal(this)">-</BUTTON>
+        </DIV>
+        <DIV class="SECTION">
+            <BUTTON class="BTN   " value="4" onmSouseover="small(this)" onmouseout="normal(this)" >4</BUTTON>
+            <BUTTON class="BTN   " value="5" onmouseover="small(this)" onmouseout="normal(this)">5</BUTTON>
+            <BUTTON class="BTN   " value="6" onmouseover="small(this)" onmouseout="normal(this)">6</BUTTON>
+            <BUTTON class="BTN" value="*" onmouseover="small(this)" onmouseout="normal(this)">*</BUTTON>
+        </DIV>
+        <DIV class="SECTION">
+            <BUTTON class="BTN   " value="7" onmouseover="small(this)" onmouseout="normal(this)">7</BUTTON>
+            <BUTTON class="BTN   " value="8" onmouseover="small(this)" onmouseout="normal(this)">8</BUTTON>
+            <BUTTON class="BTN   " value="9" onmouseover="small(this)" onmouseout="normal(this)">9</BUTTON>
+            <BUTTON class="BTN1" value="/" onmouseover="small(this)" onmouseout="normal(this)">/</BUTTON>
+        </DIV>
+        <DIV class="SECTION">
+            <BUTTON class="BTN2 BTN " value="0" onmouseover="small(this)" onmouseout="normal(this)">0</BUTTON>
+            <BUTTON class="BTN   " value="." onmouseover="small(this)" onmouseout="normal(this)">.</BUTTON>
+            <BUTTON class="BTN" id="result" value="=" onmouseover="small(this)" onmouseout="normal(this)">=</BUTTON>
+        </DIV>
+    </div>
+   
+    
+    <script src="calc.js"></script>
+
+</body>
+</html>
